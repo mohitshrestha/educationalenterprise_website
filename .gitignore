@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Quarto
+/.quarto/
+/docs/.quarto/
+/docs/_freeze/
+/_freeze/
+
+# VScode
+/.vscode/
+
+# Ignore Python Environment folder files
+/.venv/
+
+/.luarc.json
