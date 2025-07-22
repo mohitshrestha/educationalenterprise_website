@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Educational Enterprise Pvt. Ltd."
+  site-url: https://mohitshrestha.github.io/educationalenterprise_website/
+  google-analytics: "G-M0W0K6HDJX"
   navbar:
     left:
       - href: index.qmd
