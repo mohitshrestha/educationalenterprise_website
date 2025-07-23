@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-![](https://educationalenterprise.com.np/media/logo/default/Educational-Enterprise-Logo.png){fig-alt="Educational Enterprise Logo" fig-align="center"}
+![](/assets/media/images/logo/Educational-Enterprise-Logo.png){fig-alt="Educational Enterprise Logo" fig-align="center"}
 
 One of the oldest bookstores in Nepal serving since 1961 A.D, Educational Enterprise is a nationally recognized bookseller, distributor, and publisher. We’re passionate about promoting reading culture – and it goes way beyond just selling books.
 

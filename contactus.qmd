@@ -2,7 +2,7 @@
 title: "Contact Us"
 ---
 
-![](http://www.educationalenterprise.com.np/images/educational_enterprise_banner.jpg){fig-alt="Educational Enterprise Logo" fig-align="center"}
+![](/assets/media/images/logo/educational_enterprise_banner.jpg){fig-alt="Educational Enterprise Logo" fig-align="center"}
 
 <p style="text-align:center;">
 📞 **Contact Details:**  
