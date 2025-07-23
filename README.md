@@ -17,8 +17,8 @@ Looking for your next great read? Whether you're striving for **academic success
 📍 109, Saraswati Thaan Marg, Gairidhara, Ward No 2, Kathmandu, 44600, Nepal
 
 📞 **Contact:**  
-📧 contact@educationalenterprise.com.np  
-📱 +977-9841554362 | ☎️ +977-1-5323749
+📧 <a href="mailto:contact@educationalenterprise.com.np?Subject=Hello%20from%20Educational%20Enterprise%20Pvt.%20Ltd.%20Website" target="_top">contact@educationalenterprise.com.np</a>
+📱 <a href="tel:+977-9841554362" target="_top">+977-9841554362</a> | ☎️ <a href="tel:+977-1-5323749" target="_top">+977-1-5323749</a>
 
 ---
 
