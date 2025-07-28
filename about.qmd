@@ -1,8 +1,24 @@
 ---
 title: "About"
+image: "https://mohitshrestha.github.io/educationalenterprise_website/assets/media/images/logo/Educational-Enterprise-Logo_small.png"
+about:
+  template: jolla
+  image-width: 10em
+  image-shape: rectangle
+  links:
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/EducationalEnterprise/
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/EducationalEnterprise/
+    - icon: x
+      text: X/Twitter
+      href: https://x.com/EduEntBooks/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/company/EducationalEnterprise/
 ---
-
-![](/assets/media/images/logo/Educational-Enterprise-Logo.png){fig-alt="Educational Enterprise Logo" fig-align="center"}
 
 One of the oldest bookstores in Nepal serving since 1961 A.D, Educational Enterprise is a nationally recognized bookseller, distributor, and publisher. We’re passionate about promoting reading culture – and it goes way beyond just selling books.
 

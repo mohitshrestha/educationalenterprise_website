@@ -10,6 +10,13 @@ website:
   favicon: "/assets/media/images/logo/Educational-Enterprise-Logo_small.png"
   twitter-card: true
   navbar:
+    title: false
+    logo: "/assets/media/images/logo/Educational-Enterprise-Logo.png"
+    logo-alt: "Educational Enterprise Pvt. Ltd. Logo"
+    background: light
+    foreground: dark
+    pinned: true
+    search: true
     left:
       - href: index.qmd
         text: Home
@@ -34,6 +41,7 @@ website:
 
 format:
   html:
+    page-layout: full
     theme:
       - cosmo
       - brand
