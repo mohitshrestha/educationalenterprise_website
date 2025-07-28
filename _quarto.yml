@@ -6,6 +6,9 @@ website:
   title: "Educational Enterprise Pvt. Ltd."
   site-url: https://educationalenterprise.com.np
   google-analytics: "G-M0W0K6HDJX"
+  image: "/assets/media/images/logo/Educational-Enterprise-Logo.png"
+  favicon: "/assets/media/images/logo/Educational-Enterprise-Logo_small.png"
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd
@@ -14,6 +17,20 @@ website:
         text: About
       - href: contactus.qmd
         text: Contact Us
+  page-footer:
+    background: light
+    left:
+      - text: Copyright © 1961-<script>document.write( new Date().getFullYear() );</script>&nbsp;<a href="https://www.educationalenterprise.com.np" target="_top">Educational Enterprise Pvt. Ltd.</a> All rights reserved. <br>Designed by <a href="https://www.mohitshrestha.com.np" target="_top">Mohit Shrestha</a>.
+    right:
+      - icon: facebook
+        href: https://www.facebook.com/EducationalEnterprise/   
+      - icon: instagram
+        href: https://www.instagram.com/EducationalEnterprise/
+      - icon: x
+        href: https://x.com/EduEntBooks/
+      - icon: linkedin
+        href: https://www.linkedin.com/company/EducationalEnterprise/
+    border: true
 
 format:
   html:

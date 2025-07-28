@@ -1,5 +1,6 @@
 ---
 title: "Educational Enterprise Pvt. Ltd."
+toc: false
 ---
 
 # 📚 Educational Enterprise Pvt. Ltd. — Official Website
