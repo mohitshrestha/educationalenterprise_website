@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: "https://mohitshrestha.github.io/educationalenterprise_website/assets/media/images/logo/Educational-Enterprise-Logo_small.png"
+image: "/assets/media/images/logo/Educational-Enterprise-Logo_small.png"
 about:
   template: jolla
   image-width: 10em
