@@ -44,8 +44,9 @@ format:
     page-layout: full
     theme:
       - cosmo
-    css: styles.css
+    css: /media/css/styles.css
     toc: true
 
 brand:
-  light: brand/_brand.yml
+  light: brand/_brand_light.yml
+  dark: brand/_brand_dark.yml
