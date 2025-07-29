@@ -44,7 +44,7 @@ format:
     page-layout: full
     theme:
       - cosmo
-    css: /media/css/styles.css
+    css: assets/css/styles.css
     toc: true
 
 brand:
