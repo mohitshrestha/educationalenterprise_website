@@ -1,45 +1,103 @@
 meta:
-  name: brand.yml
+  name: 
+    full: Educational Enterprise Pvt. Ltd.
+    short: Educational Enterprise
   links:
-    home: https://posit-dev.github.io/brand-yml
-    github: https://github.com/posit-dev/brand-yml
+    home: https://educationalenterprise.com.np
+    github: https://mohitshrestha.github.io/educationalenterprise_website/
+    facebook: https://www.facebook.com/EducationalEnterprise/
+    instagram: https://www.instagram.com/EducationalEnterprise/
+    x: https://x.com/EduEntBooks/
+    linkedin: https://www.linkedin.com/company/EducationalEnterprise/
+  description: |
+    Educational Enterprise is a one of Nepal’s oldest and most trusted bookstore
+  founded: 1961
 
 logo:
   images:
-    icon-color: "../assets/media/images/logo/Educational-Enterprise-Logo_small.png"
-    wide-color: "../assets/media/images/logo/Educational-Enterprise-Logo.png"
-    tall-color: "../assets/media/images/logo/Educational-Enterprise-Logo_small.png"
-  small: wide-color
-  medium: wide-color
-  large: wide-color
+    icon:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo_small.png"
+      alt: "Educational Enterperise icon with abstract shapes"
+    header:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      alt: "Educational Enterperise with logo"
+    header-white:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      alt: "Educational Enterperise with logo in white"
+    full:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      alt: "Full Educational Enterperise logo with tagline"
+  small: header
+  medium:
+    light: header
+    dark: header-white
+  large: full
 
 color:
   palette:
-    orange: "#FF6F20"
-    pink: "#FF3D7F"
-    green: "#28A745"
-    yellow: "#FFC107"
-  primary: orange
-  success: green
-  warning: yellow
-  danger: pink
+    white: "#FFFFFF"
+    black: "#151515"
+    blue: "#447099"
+    orange: "#EE6331"
+    green: "#72994E"
+    teal: "#419599"
+    burgundy: "#9A4665"
+
+  foreground: black #The main text color. Typically will be close to black and must have high contrast with the background color.
+  background: white #The main background color. Tyically will be close to white and must have high contrast with the foreground color.
+  primary: blue #The primary accent color, used for hyperlinks, active states, and primary action buttons.
+  secondary: "#707073" #The secondary accent color, often used for lighter text or disabled states.
+  tertiary: "#C2C2C4" #The tertiary accent color, used for hover states, accents, and wells.
+  success: green #The color used for positive or successful actions and information.
+  info: teal #The color used for neutral or informational actions and information.
+  warning: orange #The color used for warning or cautionary actions and information.
+  danger: burgundy #The color used for errors, dangerous actions, or negative information.
+  light: white #A bright color, used as a high-contrast foreground color on dark elements or low-contrast background color on light elements.
+  dark: "#404041" #A dark color, used as a high-contrast foreground color on light elements or high-contrast background color on light elements.
 
 typography:
   fonts:
+    # Local files
     - family: Open Sans
+      source: file
+      files:
+        - path: fonts/open-sans/OpenSans-Variable.ttf
+        - path: fonts/open-sans/OpenSans-Variable-Italic.ttf
+          style: italic
+    # Online files
+    - family: Closed Sans
+      source: file
+      files:
+        - path: https://example.com/Closed-Sans-Bold.woff2
+          weight: bold
+        - path: https://example.com/Closed-Sans-Italic.woff2
+          style: italic
+    # Google Fonts
+    - family: Roboto Slab
       source: google
-    - family: IBM Plex Mono
-      source: google
-    - family: Rubik
-      source: google
+      weight: [600, 900]
+      style: normal
+      display: block
+    # Bunny Fonts
+    - family: Fira Code
+      source: bunny
+
   base:
     family: Open Sans
-    line-height: 1.6
+    line-height: 1.25
+    size: 1rem
   headings:
-    family: Rubik
-    weight: normal
-  link:
-    color: purple
+    family: Roboto Slab
+    color: primary
+    weight: 600
   monospace:
-    family: IBM Plex Mono
-    size: 1em
+    family: Fira Code
+    size: 0.9em
+  monospace-inline:
+    color: background
+    background-color: red
+  monospace-block:
+    color: foreground
+    background-color: background
+  link:
+    color: danger
