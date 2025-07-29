@@ -9,9 +9,9 @@ logo:
     icon-color: "../assets/media/images/logo/Educational-Enterprise-Logo_small.png"
     wide-color: "../assets/media/images/logo/Educational-Enterprise-Logo.png"
     tall-color: "../assets/media/images/logo/Educational-Enterprise-Logo_small.png"
-  small: icon-color
+  small: wide-color
   medium: wide-color
-  large: tall-color
+  large: wide-color
 
 color:
   palette:
