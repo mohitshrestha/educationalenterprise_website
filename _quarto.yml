@@ -13,7 +13,7 @@ website:
     title: false
     logo: "/assets/media/images/logo/Educational-Enterprise-Logo.png"
     logo-alt: "Educational Enterprise Pvt. Ltd. Logo"
-    background: light
+    background: "#ECF0F1"
     foreground: dark
     pinned: true
     search: true
