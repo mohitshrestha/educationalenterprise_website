@@ -1,10 +1,11 @@
 ---
 title: "About"
 image: "assets/media/images/logo/Educational-Enterprise-Logo_small.png"
+toc: false
 about:
-  template: jolla
-  image-width: 10em
-  image-shape: rectangle
+  template: solana
+  #image-width: 10em
+  image-shape: rounded
   links:
     - icon: facebook
       text: Facebook
@@ -20,12 +21,87 @@ about:
       href: https://www.linkedin.com/company/EducationalEnterprise/
 ---
 
-**One of Nepal’s Oldest and Most Trusted Bookstore | Since 1961 A.D.**
+::: {.panel-tabset group="language"}
+## English {.active}
 
-At Educational Enterprise, we’ve been igniting minds and nurturing a love for learning since 1961. As a leading bookstore, distributor, and publisher, we offer more than just books — we provide a pathway to knowledge, growth, and inspiration. Whether you’re pursuing academic excellence, seeking personal development, or getting lost in a captivating story, our shelves are filled with books that cater to every interest and passion.
+```{=html}
+<!-- English Content -->
+<div lang="en">
+  <p>📚✨ Ignite Your Mind at Educational Enterprise! ✨📚</p>
+  <h3>Nepal’s Oldest and Most Trusted Bookstore | Since 1961 A.D.</h3><br>
 
-We believe that access to education is the gateway to unlocking potential, and we strive to offer resources that support the diverse aspirations of our customers. Age, gender, or past experiences don’t define you; it’s your ambition and your desire for wholeness that matter. We are here to guide you on that journey, today and beyond.
+  <p>Serving readers since <strong>1961 A.D.</strong>, <strong>Educational Enterprise</strong> has grown to become a beloved literary hub 📍📚🧠🏛️ — and we’re just as passionate about books today as we were on day one! 🕰️📖</p>
 
-Our carefully curated collection of books, ranging from essential textbooks in medicine, engineering, and business to bestselling novels and timeless classics, reflects our commitment to both quality and authenticity. At Educational Enterprise, every book is a stepping stone toward broader horizons.
+  <p>Whether you're pursuing <strong>academic excellence</strong> 🎓, diving into <strong>personal growth</strong> 🌱, or searching for your next <strong>great story</strong> 📘, we’re here to help you discover the perfect read.</p>
 
-Come, visit us, and start your next learning adventure! Together, let’s discover new possibilities — one page at a time.
+  <p>🎉 From <strong>bestselling novels</strong> to <strong>essential textbooks</strong> in <strong>medicine</strong> 🩺, <strong>engineering</strong> 🛠️, <strong>business</strong> 💼, and beyond — our shelves are packed with <strong>knowledge</strong>, <strong>inspiration</strong>, and <strong>imagination</strong>.</p>
+
+  <p>We’re more than just a bookstore. We’re a proud <strong>publisher</strong> 📝, <strong>distributor</strong> 📦, and champion of <strong>lifelong learning</strong> — on a mission to make <strong>education accessible and meaningful</strong> for all, no matter your background or goal.</p>
+
+  <p>From <strong>carefully selected titles</strong> to <strong>genuine editions</strong> and <strong>trusted quality</strong>, we bring together a world of books that <strong>inspire</strong>, <strong>inform</strong>, and <strong>empower</strong>. 📘💡</p>
+
+  <p><strong>Come explore with us — every shelf is a new beginning, and every page opens a new possibility.</strong> 🚪📚</p>
+
+  <hr>
+
+  <h3>📲 Stay Connected</h3>
+  <p>Follow us on social media for:</p>
+  <ul>
+    <li>📢 Book launches</li>
+    <li>🎁 Exclusive discounts</li>
+    <li>📚 Reading recommendations</li>
+    <li>📸 Behind-the-scenes from our store and team</li>
+  </ul>
+
+  <hr>
+
+  <blockquote>
+    📖 <strong>Educational Enterprise — Where Every Page Opens a World of Possibility.</strong>
+  </blockquote>
+
+  <hr>
+</div>
+```
+
+## Nepali
+
+```{=html}
+<!-- Nepali Content -->
+<div lang="ne">
+  <p>📚✨ एजुकेशनल इन्टरप्राइज मा आफ्नो ज्ञानको संसारलाई प्रज्वलित गर्नुहोस्! ✨📚</p>
+  <h3>नेपालको सबैभन्दा पुरानो र सबैभन्दा विश्वासिलो पुस्तक पसल | २०१८ वि.सं. सालदेखि</h3><br>
+
+  <p><strong>२०१८ वि.सं. सालदेखि</strong> पाठकहरूलाई सेवा दिँदै आएको <strong>एजुकेशनल इन्टरप्राइज</strong> एक प्रिय साहित्यिक केन्द्र बन्न सफल भएको छ 📍📚🧠🏛️ — र हामी आज पनि त्यो पहिलो दिन जत्तिकै किताबहरू प्रति उत्साही छौं! 🕰️📖</p>
+
+  <p>तपाईं <strong>शैक्षिक उन्नति</strong> 🎓 को खोजीमा हुनुहुन्छ, <strong>व्यक्तिगत विकास</strong> 🌱 मा डुब्नु भएको छ, वा तपाईंको अर्को <strong>रोचक कथा</strong> 📘 खोज्दै हुनुहुन्छ भने, हामी तपाईंलाई उत्तम पुस्तक भेट्टाउन सहयोग गर्न यहाँ छौं।</p>
+
+  <p>🎉 <strong>बेस्टसेलर उपन्यासहरू</strong> देखि <strong>महत्वपूर्ण पाठ्यपुस्तकहरू</strong> सम्म, <strong>चिकित्सा</strong> 🩺, <strong>इन्जिनियरिङ</strong> 🛠️, <strong>व्यवसाय</strong> 💼 लगायतका क्षेत्रहरूमा — हाम्रा पुस्तकालयहरू ज्ञान, प्रेरणा र नयाँ सोचको खजाना भरिएका छन्।</p>
+
+  <p>हामी केवल पुस्तक पसल होइनौं। हामी एक गर्विलो <strong>प्रकाशक</strong> 📝, <strong>वितरक</strong> 📦, र <strong>निरन्तर सिकाइ</strong> का समर्थक हौं — सबैका लागि शिक्षा पहुँचयोग्य र अर्थपूर्ण बनाउने मिशनका साथ, तपाईंको पृष्ठभूमि वा लक्ष्य जे भए पनि।</p>
+
+  <p><strong>चयन गरिएको पुस्तकहरू</strong> देखि <strong>असली संस्करणहरू</strong> र <strong>विश्वसनीय गुणस्तर</strong> सम्म, हामी पुस्तकहरूको संसार ल्याउँछौं जुन प्रेरित गर्ने, जानकारी दिने र सशक्त बनाउने छन्। 📘💡</p>
+
+  <p><strong>हामीसँग अन्वेषण गर्नुहोस् — प्रत्येक रैक नयाँ सुरुवात हो, र प्रत्येक पृष्ठ नयाँ सम्भावना खोल्छ।</strong> 🚪📚</p>
+
+  <hr>
+
+  <h3>📲 सम्पर्कमा रहनुहोस्</h3>
+  <p>हाम्रो सामाजिक संजालहरूमा हामीलाई फलो गर्नुहोस्:</p>
+  <ul>
+    <li>📢 पुस्तक विमोचनहरू</li>
+    <li>🎁 विशेष छुटहरू</li>
+    <li>📚 पठन सिफारिसहरू</li>
+    <li>📸 हाम्रो पसल र टिमको पछाडि दृश्यहरू</li>
+  </ul>
+
+  <hr>
+
+  <blockquote>
+    📖 <strong>एजुकेशनल इन्टरप्राइज — जहाँ प्रत्येक पृष्ठले सम्भावनाको संसार खोल्छ।</strong>
+  </blockquote>
+
+  <hr>
+</div>
+```
+
+:::
