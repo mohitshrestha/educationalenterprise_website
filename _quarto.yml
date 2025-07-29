@@ -25,7 +25,7 @@ website:
       - href: contactus.qmd
         text: Contact Us
   page-footer:
-    background: light
+    background: dark
     left:
       - text: Copyright © 1961-<script>document.write( new Date().getFullYear() );</script>&nbsp;<br><a href="https://www.educationalenterprise.com.np" target="_top">Educational Enterprise Pvt. Ltd.</a> All rights reserved. <br>Designed by <a href="https://www.mohitshrestha.com.np" target="_top">Mohit Shrestha</a>.
     right:

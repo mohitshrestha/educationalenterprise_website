@@ -46,18 +46,25 @@ color:
     green: "#72994E"
     teal: "#419599"
     burgundy: "#9A4665"
+    bright_sun: "#FCDB32"
+    big_stone: "#141D38"
+    foreground_color: "#3498DB"
+    background_color: "#ECF0F1"
+    heading_color: "#2C3E50"
+    accent_color: big_stone
 
 # Define below Theme Colors attributes
-  background: white # The main background color. Tyically will be close to white and must have high contrast with the foreground color.
-  primary: blue # The primary accent color, used for hyperlinks, active states, and primary action buttons.
+  foreground: foreground_color # The main text color. Typically will be close to black and must have high contrast with the background color.
+  background: background_color # The main background color. Tyically will be close to white and must have high contrast with the foreground color.
+  primary: heading_color # The primary accent color, used for hyperlinks, active states, and primary action buttons.
   secondary: "#707073" # The secondary accent color, often used for lighter text or disabled states.
   tertiary: "#C2C2C4" # The tertiary accent color, used for hover states, accents, and wells.
   success: green # The color used for positive or successful actions and information.
   info: teal # The color used for neutral or informational actions and information.
   warning: orange # The color used for warning or cautionary actions and information.
   danger: burgundy # The color used for errors, dangerous actions, or negative information.
-  light: white # A bright color, used as a high-contrast foreground color on dark elements or low-contrast background color on light elements.
-  dark: "#404041" # A dark color, used as a high-contrast foreground color on light elements or high-contrast background color on light elements.
+  light: background_color # A bright color, used as a high-contrast foreground color on dark elements or low-contrast background color on light elements.
+  dark: foreground_color #"#404041" # A dark color, used as a high-contrast foreground color on light elements or high-contrast background color on light elements.
 
 typography:
   fonts:
@@ -96,7 +103,7 @@ typography:
   # All heading levels (h1, h2, etc.). Supported Fields: family, size, line-height, weight
   # Supported Fields: family, weight, style, line-height, color
     family: Roboto Slab
-    color: primary
+    color: heading_color
     weight: 600
   monospace: 
   # General monospaced text, typically used in code blocks and other programming-related content.
@@ -116,5 +123,5 @@ typography:
   link:
   # Hyperlinks.
   # Supported Fields: weight, color, background-color, decoration
-    color: danger
+    color: foreground_color
     decoration: underline # The text decoration, typically used for links. Common values include “underline”, “none”, or “overline”.
