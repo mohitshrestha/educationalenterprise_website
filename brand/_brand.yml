@@ -101,3 +101,4 @@ typography:
     background-color: background
   link:
     color: danger
+    decoration: underline #The text decoration, typically used for links. Common values include “underline”, “none”, or “overline”.
