@@ -10,7 +10,7 @@ about:
     - icon: instagram
       text: Instagram
       href: https://www.instagram.com/EducationalEnterprise/
-    - icon: x
+    - icon: twitter-x
       text: X/Twitter
       href: https://x.com/EduEntBooks/
     - icon: linkedin
@@ -32,7 +32,7 @@ about:
 
 <p style="text-align:center;">
 👉 **Follow. Discover. Engage.**  
-[Facebook](https://facebook.com/EducationalEnterprise) | [Instagram](https://instagram.com/EducationalEnterprise) | [LinkedIn](https://linkedin.com/company/EducationalEnterprise)
+[Facebook](https://facebook.com/EducationalEnterprise) | [Instagram](https://instagram.com/EducationalEnterprise) | [LinkedIn](https://linkedin.com/company/EducationalEnterprise) | [X/Twitter](https://x.com/EduEntBooks/)
 </p>
 
 
