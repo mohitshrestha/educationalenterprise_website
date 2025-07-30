@@ -17,7 +17,7 @@ about:
       text: Instagram
       href: https://www.instagram.com/EducationalEnterprise/
     - icon: twitter-x
-      text: X/Twitter
+      text: X (Twitter)
       href: https://x.com/EduEntBooks/
     - icon: linkedin
       text: LinkedIn

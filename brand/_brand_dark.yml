@@ -10,7 +10,7 @@ meta:
     x: https://x.com/EduEntBooks/
     linkedin: https://www.linkedin.com/company/EducationalEnterprise/
   description: |
-    Educational Enterprise is a one of Nepal’s oldest and most trusted bookstore
+    Educational Enterprise is one of Nepal’s oldest and most trusted bookstore
   founded: 1961
 
 logo:
@@ -39,32 +39,46 @@ logo:
 # The palette attribute is a nested mapping of color names to color string values (hex colors are recommended).
 color:
   palette:
-    white: "#FFFFFF"
-    black: "#151515"
-    blue: "#447099"
-    orange: "#EE6331"
-    green: "#72994E"
-    teal: "#419599"
-    burgundy: "#9A4665"
-    bright_sun: "#FCDB32"
-    big_stone: "#141D38"
-    foreground_color: "#3498DB"
-    background_color: "#ECF0F1"
-    heading_color: "#2C3E50"
-    accent_color: big_stone
+    # ✳️ Core colors
+    heritage_navy: "#1C2B2D"        # Primary brand color
+    dusty_indigo: "#4C6B88"         # Accent (links, buttons)
+    slate_gray: "#3F3F3F"           # Foreground text
+    soft_beige: "#EFE9DC"           # Background
+    rust_red: "#A14E3E"             # Danger / error
+    mustard_gold: "#D4A63D"         # Warning / highlights
+    desaturated_teal: "#5C8D89"     # Info / success
+    hover_gray: "#D4D7DC"           # Tertiary
+    muted_gray: "#9FA6B2"           # Secondary
+    deep_slate: "#2A2E32"           # Dark theme elements
+    old_paper: "#F3F0E2"           # Code block background
+    code_background_color: "#F3F0E2" 
+
+    # ✅ Logical aliases (single source of truth)
+    foreground_color: slate_gray
+    background_color: soft_beige
+    heading_color: heritage_navy
+    accent_color: dusty_indigo
+    link_color: dusty_indigo
+    success_color: desaturated_teal
+    warning_color: mustard_gold
+    error_color: rust_red
+    hover_color: hover_gray
+    muted_color: muted_gray
+    dark_color: deep_slate
+    light_color: soft_beige
 
 # Define below Theme Colors attributes
   foreground: foreground_color # The main text color. Typically will be close to black and must have high contrast with the background color.
-  background: background_color # The main background color. Tyically will be close to white and must have high contrast with the foreground color.
+  background: background_color # The main background color. Typically will be close to white and must have high contrast with the foreground color.
   primary: heading_color # The primary accent color, used for hyperlinks, active states, and primary action buttons.
-  secondary: "#707073" # The secondary accent color, often used for lighter text or disabled states.
-  tertiary: "#C2C2C4" # The tertiary accent color, used for hover states, accents, and wells.
-  success: green # The color used for positive or successful actions and information.
-  info: teal # The color used for neutral or informational actions and information.
-  warning: orange # The color used for warning or cautionary actions and information.
-  danger: burgundy # The color used for errors, dangerous actions, or negative information.
-  light: background_color # A bright color, used as a high-contrast foreground color on dark elements or low-contrast background color on light elements.
-  dark: foreground_color #"#404041" # A dark color, used as a high-contrast foreground color on light elements or high-contrast background color on light elements.
+  secondary: muted_color # The secondary accent color, often used for lighter text or disabled states.
+  tertiary: hover_color # The tertiary accent color, used for hover states, accents, and wells.
+  success: success_color # The color used for positive or successful actions and information.
+  info: accent_color # The color used for neutral or informational actions and information.
+  warning: warning_color # The color used for warning or cautionary actions and information.
+  danger: error_color # The color used for errors, dangerous actions, or negative information.
+  light: light_color # A bright color, used as a high-contrast foreground color on dark elements or low-contrast background color on light elements.
+  dark: dark_color # "#404041" # A dark color, used as a high-contrast foreground color on light elements or high-contrast background color on light elements.
 
 typography:
   fonts:
@@ -113,15 +127,15 @@ typography:
   monospace-inline:
   # Inline monospaced text, usually used for code snippets within regular text. Inherits from monospace.
   # Supported Fields: family, size, weight, color, background-color
-    color: background
-    background-color: red
+    color: foreground_color
+    background-color: code_background_color
   monospace-block:
   # Block (multi-line) monospaced text, typically used for code blocks. Inherits from monospace.
   # Supported Fields: family, size, weight, line-height, color, background-color
-    color: foreground
-    background-color: background
+    color: foreground_color
+    background-color: code_background_color
   link:
   # Hyperlinks.
   # Supported Fields: weight, color, background-color, decoration
-    color: foreground_color
+    color: link_color
     decoration: underline # The text decoration, typically used for links. Common values include “underline”, “none”, or “overline”.
