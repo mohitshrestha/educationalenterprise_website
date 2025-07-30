@@ -4,6 +4,9 @@ image: "assets/media/images/logo/Educational-Enterprise-Logo_small.png"
 about:
   template: trestles
   links:
+    - icon: envelope-at
+      text: Email
+      href: "mailto:contact@educationalenterprise.com.np?Subject=Hello%20from%20Educational%20Enterprise%20Pvt.%20Ltd.%20Website"
     - icon: facebook
       text: Facebook
       href: https://www.facebook.com/EducationalEnterprise/

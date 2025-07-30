@@ -29,6 +29,8 @@ website:
     left:
       - text: Copyright © 1961-<script>document.write( new Date().getFullYear() );</script>&nbsp;<br><a href="https://www.educationalenterprise.com.np" target="_top">Educational Enterprise Pvt. Ltd.</a> All rights reserved. <br>Designed by <a href="https://www.mohitshrestha.com.np" target="_top">Mohit Shrestha</a>.
     right:
+      - icon: envelope-at
+        href: "mailto:contact@educationalenterprise.com.np?Subject=Hello%20from%20Educational%20Enterprise%20Pvt.%20Ltd.%20Website"
       - icon: facebook
         href: https://www.facebook.com/EducationalEnterprise/   
       - icon: instagram
