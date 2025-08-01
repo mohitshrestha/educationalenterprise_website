@@ -1,0 +1,151 @@
+meta:
+  name: 
+    full: Educational Enterprise Pvt. Ltd.
+    short: Educational Enterprise
+  links:
+    home: https://educationalenterprise.com.np
+    github: https://mohitshrestha.github.io/educationalenterprise_website/
+    facebook: https://www.facebook.com/EducationalEnterprise/
+    instagram: https://www.instagram.com/EducationalEnterprise/
+    x: https://x.com/EduEntBooks/
+    linkedin: https://www.linkedin.com/company/EducationalEnterprise/
+  description: |
+    Educational Enterprise is one of Nepal’s oldest and most trusted bookstore
+  founded: 1961
+
+logo:
+  images:
+    icon:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo_small.png"
+      alt: "Educational Enterperise icon with abstract shapes"
+    header:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      alt: "Educational Enterperise with logo"
+    header-white:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      alt: "Educational Enterperise with logo in white"
+    full:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      alt: "Full Educational Enterperise logo with tagline"
+
+# Define Logo images Attributes
+  small: header
+  medium:
+    light: header
+    dark: header-white
+  large: full
+
+# Define Palette attributes. 
+# The palette attribute is a nested mapping of color names to color string values (hex colors are recommended).
+color:
+  palette:
+    # ✳️ Primary Colors
+    blue: '#0071DC' # Walmart Blue
+    white: '#FFFFFF'
+    yellow: '#FFC220' # Spark Yellow
+
+    # Secondary Colors
+    red: '#DE1C24'
+    yellow-pale: '#F8E6A5'
+    yellow-bright: '#FFF200'
+    blue-light: '#8CD1FC'
+    blue-lighter: '#D3EFF8'
+    off-white: '#FAFAFA'
+    ozark-noir: '#041E42'
+
+    # Default Colors:
+    # white: "#FFFFFF"
+    black: "#151515"
+    # blue: "#447099"
+    orange: "#EE6331"
+    green: "#72994E"
+    teal: "#419599"
+    burgundy: "#9A4665"
+    grayish-blue: "#C2C2C4"
+
+# Define below Theme Colors attributes
+  foreground: ozark-noir # The main text color. Typically will be close to black and must have high contrast with the background color.
+  background: white # The main background color. Typically will be close to white and must have high contrast with the foreground color.
+  primary: blue # The primary accent color, used for hyperlinks, active states, and primary action buttons.
+  secondary:  dark # The secondary accent color, often used for lighter text or disabled states.
+  tertiary: grayish-blue # The tertiary accent color, used for hover states, accents, and wells.
+  success: green # The color used for positive or successful actions and information.
+  info: teal # The color used for neutral or informational actions and information.
+  warning: orange # The color used for warning or cautionary actions and information.
+  danger: burgundy # The color used for errors, dangerous actions, or negative information.
+  light: off-white # A bright color, used as a high-contrast foreground color on dark elements or low-contrast background color on light elements.
+  dark: ozark-noir # "#404041" # A dark color, used as a high-contrast foreground color on light elements or high-contrast background color on light elements.
+
+typography:
+  fonts:
+    # Local files
+    - family: Open Sans
+      source: file
+      files:
+        - path: fonts/open-sans/OpenSans-Variable.ttf
+        - path: fonts/open-sans/OpenSans-Variable-Italic.ttf
+          style: italic
+    # Online files
+    - family: Closed Sans
+      source: file
+      files:
+        - path: https://example.com/Closed-Sans-Bold.woff2
+          weight: bold
+        - path: https://example.com/Closed-Sans-Italic.woff2
+          style: italic
+    # Google Fonts
+    - family: Roboto Slab
+      source: google
+      weight: [600, 900]
+      style: normal
+      display: block
+    # Bunny Fonts
+    - family: Fira Code
+      source: bunny
+    # Walmart Font  
+    - family: Martel Sans # Google Fonts alternative to Bogle
+      source: google
+
+  base: 
+  # Default text, primarily used in the document body.
+  # Supported Fields: family, size, line-height, weight
+    family: Martel Sans
+    line-height: 1.25
+    size: 1rem
+  headings: 
+  # All heading levels (h1, h2, etc.). Supported Fields: family, size, line-height, weight
+  # Supported Fields: family, weight, style, line-height, color
+    family: Roboto Slab
+    color: primary
+    weight: 600
+  monospace: 
+  # General monospaced text, typically used in code blocks and other programming-related content.
+  # Supported Fields: family, size, weight
+    family: Fira Code
+    size: 0.9em
+  monospace-inline:
+  # Inline monospaced text, usually used for code snippets within regular text. Inherits from monospace.
+  # Supported Fields: family, size, weight, color, background-color
+    color: foreground
+    background-color: orange
+  monospace-block:
+  # Block (multi-line) monospaced text, typically used for code blocks. Inherits from monospace.
+  # Supported Fields: family, size, weight, line-height, color, background-color
+    color: foreground
+    background-color: background
+  link:
+  # Hyperlinks.
+  # Supported Fields: weight, color, background-color, decoration
+    color: danger
+    decoration: underline # The text decoration, typically used for links. Common values include “underline”, “none”, or “overline”.
+
+defaults:
+  bootstrap: {}
+    # bootstrap variable definitions
+  quarto:
+    format:
+      # basic format-specific settings
+      html:
+      revealjs:
+  shiny:
+    # shiny specific settings

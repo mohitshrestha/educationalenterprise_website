@@ -13,7 +13,7 @@ website:
     title: false
     logo: "/assets/media/images/logo/Educational-Enterprise-Logo.png"
     logo-alt: "Educational Enterprise Pvt. Ltd. Logo"
-    background: "#ECF0F1"
+    background: light
     foreground: dark
     pinned: true
     search: true
@@ -45,11 +45,15 @@ format:
   html:
     page-layout: full
     theme:
-      - cosmo # a predefined bootswatch theme
-      - brand # theming derived from `_brand.yml`
+      light:
+        - cosmo # a predefined bootswatch theme
+        - brand # theming derived from `_brand.yml`
+      dark:
+        - lux # a predefined bootswatch theme
+        - brand # theming derived from `_brand.yml`
     css: /assets/css/styles.css # a user-defined customization
     toc: true
 
 brand:
-  light: /brand/_brand_dark.yml
-  dark: /brand/_brand_brandyml.yml
+  light: /brand/_brand_light.yml
+  dark: /brand/_brand_walmart.yml
