@@ -55,7 +55,7 @@ color:
 
     # ✅ Logical aliases (single source of truth)
     foreground_color: slate_gray
-    background_color: soft_beige
+    background_color: old_paper
     heading_color: heritage_navy
     accent_color: dusty_indigo
     link_color: dusty_indigo
@@ -139,3 +139,14 @@ typography:
   # Supported Fields: weight, color, background-color, decoration
     color: link_color
     decoration: underline # The text decoration, typically used for links. Common values include “underline”, “none”, or “overline”.
+
+defaults:
+  bootstrap: {}
+    # bootstrap variable definitions
+  quarto:
+    format:
+      # basic format-specific settings
+      html:
+      revealjs:
+  shiny:
+    # shiny specific settings
