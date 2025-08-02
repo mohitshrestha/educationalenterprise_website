@@ -49,9 +49,11 @@ format:
       light:
         - lux # a predefined bootswatch theme
         - brand # theming derived from `_brand.yml`
+        - assets/css/styles_light.css # a user-defined customization
       dark:
         - lux # a predefined bootswatch theme
         - brand # theming derived from `_brand.yml`
+        - assets/css/styles_dark.css # a user-defined customization
     css: /assets/css/styles.css # a user-defined customization
     toc: true
 
