@@ -26,7 +26,7 @@ website:
         text: Contact Us
   page-footer:
     foreground: "#FFF9EC"    
-    background: "#3F88C5"
+    background: "#171b26"
     left:
       - text: Copyright © 1961-<script>document.write( new Date().getFullYear() );</script>&nbsp;<br><a href="https://www.educationalenterprise.com.np" target="_top">Educational Enterprise Pvt. Ltd.</a> All rights reserved. <br>Designed by <a href="https://www.mohitshrestha.com.np" target="_top">Mohit Shrestha</a>.
     right:

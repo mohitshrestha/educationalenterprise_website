@@ -40,6 +40,7 @@ logo:
 color:
   palette:
     # ✳️ Primary Colors
+    eduent_logo_dark: "#171b26"
     onyx: "#3E3E3E"
     cinnabar: "#D1603D"
     gold_mettalic: "#E1C16E"
