@@ -13,8 +13,8 @@ website:
     title: false
     logo: "/assets/media/images/logo/Educational-Enterprise-Logo.png"
     logo-alt: "Educational Enterprise Pvt. Ltd. Logo"
-    background: light
-    foreground: dark
+    foreground: "#3F88C5"
+    background: "#FFF9EC"
     pinned: true
     search: true
     left:
@@ -25,7 +25,8 @@ website:
       - href: contactus.qmd
         text: Contact Us
   page-footer:
-    background: dark
+    foreground: "#FFF9EC"    
+    background: "#3F88C5"
     left:
       - text: Copyright © 1961-<script>document.write( new Date().getFullYear() );</script>&nbsp;<br><a href="https://www.educationalenterprise.com.np" target="_top">Educational Enterprise Pvt. Ltd.</a> All rights reserved. <br>Designed by <a href="https://www.mohitshrestha.com.np" target="_top">Mohit Shrestha</a>.
     right:
@@ -46,7 +47,7 @@ format:
     page-layout: full
     theme:
       light:
-        - cosmo # a predefined bootswatch theme
+        - lux # a predefined bootswatch theme
         - brand # theming derived from `_brand.yml`
       dark:
         - lux # a predefined bootswatch theme
@@ -55,5 +56,5 @@ format:
     toc: true
 
 brand:
-  light: /brand/_brand_light.yml
-  dark: /brand/_brand_walmart.yml
+  light: /brand/_brand_eduent_light.yml
+  dark: /brand/_brand_eduent_dark.yml

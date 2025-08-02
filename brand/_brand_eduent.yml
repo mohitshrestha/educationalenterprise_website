@@ -1,0 +1,199 @@
+meta:
+  name: 
+    full: Educational Enterprise Pvt. Ltd.
+    short: Educational Enterprise
+  links:
+    home: https://educationalenterprise.com.np
+    github: https://mohitshrestha.github.io/educationalenterprise_website/
+    facebook: https://www.facebook.com/EducationalEnterprise/
+    instagram: https://www.instagram.com/EducationalEnterprise/
+    x: https://x.com/EduEntBooks/
+    linkedin: https://www.linkedin.com/company/EducationalEnterprise/
+  description: |
+    Educational Enterprise is one of Nepal’s oldest and most trusted bookstore
+  founded: 1961
+
+logo:
+  images:
+    icon:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo_small.png"
+      alt: "Educational Enterperise icon with abstract shapes"
+    header:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      alt: "Educational Enterperise with logo"
+    header-white:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      alt: "Educational Enterperise with logo in white"
+    full:
+      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      alt: "Full Educational Enterperise logo with tagline"
+
+# Define Logo images Attributes
+  small: header
+  medium:
+    light: header
+    dark: header-white
+  large: full
+
+# Define Palette attributes. 
+# The palette attribute is a nested mapping of color names to color string values (hex colors are recommended).
+color:
+  palette:
+    # ✳️ Primary Colors
+    onyx: "#3E3E3E"
+    cinnabar: "#D1603D"
+    gold_mettalic: "#E1C16E"
+    floral_white: "#FFF9EC"
+    steel_blue: "#3F88C5"
+    dark_moss_green: "#546A3E"
+    hookers_green: "#52796F"
+    crimson: "#D72638"
+    rusty_red: "#D33F49"
+
+    # Secondary Colors
+    # Retro Color Combinations
+    # Retro Palette 1
+    # onyx: "#3E3E3E"
+    # cinnabar: "#D1603D"
+    # gold_mettalic: "#E1C16E"
+    # floral_white: "#FFF9EC"
+
+    # # Retro Palette 2
+    # crimson: "#D72638"
+    # steel_blue: "#3F88C5"
+    # amaranth_pink: "#F49FB6"
+    # parchment: "#F2E8CF"
+
+    # # Retro Palette 3
+    # rusty_red: "#D33F49"
+    # sunglow: "#FFC857"
+    # verdigris: "#70C1B3"
+    # ivory: "#F6F7EB"
+
+    # # Retro Palette 4
+    # burnt_sienna: "#D77A61"
+    # tan: "#C5A491"
+    # linen: "#F3E9DC"
+    # hookers_green: "#52796F"
+
+    # # Retro Palette 5
+    # cinnabar: "#D1603D"
+    # sandy_brown: "#F4A259"
+    # dark_moss_green: "#546A3E"
+    # old_lace: "#F5F0E1"
+
+    # # Retro Palette 6
+    # chamoisee: "#B08968"
+    # russet: "#7F4F24"
+    # linen: "#FFF1E6"
+    # sage_green: "#A3B18A"
+
+    # Default Colors:
+    #white: "#FFFFFF"
+    black: "#151515"
+    #blue: "#447099"
+    orange: "#EE6331"
+    green: "#72994E"
+    teal: "#419599"
+    burgundy: "#9A4665"
+    grayish-blue: "#C2C2C4"
+
+# Define below Theme Colors attributes
+  foreground: onyx # The main text color. Typically will be close to black and must have high contrast with the background color.
+  background: floral_white # The main background color. Typically will be close to white and must have high contrast with the foreground color.
+  primary: steel_blue # The primary accent color, used for hyperlinks, active states, and primary action buttons.
+  secondary: cinnabar # The secondary accent color, often used for lighter text or disabled states.
+  tertiary: gold_mettalic # The tertiary accent color, used for hover states, accents, and wells.
+  success: dark_moss_green # The color used for positive or successful actions and information.
+  info: hookers_green # The color used for neutral or informational actions and information.
+  warning: rusty_red # The color used for warning or cautionary actions and information.
+  danger: crimson # The color used for errors, dangerous actions, or negative information.
+  light: cinnabar # A bright color, used as a high-contrast foreground color on dark elements or low-contrast background color on light elements.
+  dark: onyx # A dark color, used as a high-contrast foreground color on light elements or high-contrast background color on light elements.
+
+typography:
+  fonts:
+    # Local files
+    - family: Open Sans
+      source: file
+      files:
+        - path: fonts/open-sans/OpenSans-Variable.ttf
+        - path: fonts/open-sans/OpenSans-Variable-Italic.ttf
+          style: italic
+    # Online files
+    - family: Closed Sans
+      source: file
+      files:
+        - path: https://example.com/Closed-Sans-Bold.woff2
+          weight: bold
+        - path: https://example.com/Closed-Sans-Italic.woff2
+          style: italic
+    # Google Fonts
+    - family: Roboto Slab
+      source: google
+      weight: [600, 900]
+      style: normal
+      display: block
+    # Bunny Fonts
+    - family: Fira Code
+      source: bunny
+    # Walmart Font  
+    - family: Martel Sans # Google Fonts alternative to Bogle
+      source: google
+
+  base: 
+  # Default text, primarily used in the document body.
+  # Supported Fields: family, size, line-height, weight
+    family: Martel Sans
+    size: 1rem    
+    line-height: 1.25
+    # weight:
+  headings: 
+  # All heading levels (h1, h2, etc.). Supported Fields: family, size, line-height, weight
+  # Supported Fields: family, weight, style, line-height, color
+    family: Roboto Slab
+    weight: 600
+    # style:
+    # line-height:
+    color: steel_blue
+  monospace: 
+  # General monospaced text, typically used in code blocks and other programming-related content.
+  # Supported Fields: family, size, weight
+    family: Fira Code
+    size: 0.9em
+    #weight:
+  monospace-inline:
+  # Inline monospaced text, usually used for code snippets within regular text. Inherits from monospace.
+  # Supported Fields: family, size, weight, color, background-color
+    # family:
+    # size:
+    # weight:
+    color: cinnabar
+    background-color: background
+  monospace-block:
+  # Block (multi-line) monospaced text, typically used for code blocks. Inherits from monospace.
+  # Supported Fields: family, size, weight, line-height, color, background-color
+    # family:
+    # size:
+    # weight:
+    # line-weight:
+    color: cinnabar
+    background-color: foreground
+  link:
+  # Hyperlinks.
+  # Supported Fields: weight, color, background-color, decoration
+    # weight:
+    color: cinnabar
+    # background-color: background
+    decoration: underline # The text decoration, typically used for links. Common values include “underline”, “none”, or “overline”.
+
+defaults:
+  bootstrap: {}
+    # bootstrap variable definitions
+  quarto:
+    format:
+      # basic format-specific settings
+      html:
+      revealjs:
+  shiny:
+    # shiny specific settings
