@@ -20,6 +20,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: catalog.qmd
+        text: Books Catalog
       - href: about.qmd
         text: About
       - href: contactus.qmd
