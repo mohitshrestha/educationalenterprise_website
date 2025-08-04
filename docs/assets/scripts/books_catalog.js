@@ -6,7 +6,7 @@ let totalPages = 0;
 let products = [];
 let filteredProducts = [];
 let itemsPerPage = 10; // Default items per page
-let columnsPerRow = 3; // Default columns per row
+let columnsPerRow = 4; // Default columns per row
 
 // DOM Elements
 const productListEl = document.querySelector("#product-list");
@@ -74,7 +74,7 @@ function renderProduct(product) {
   const template = document.querySelector("#product-template");
   const instance = template.content.cloneNode(true);
 
-  instance.querySelector(".product-image").src = product.image || "https://placehold.co/250x300?text=No+Image+Found";
+  instance.querySelector(".product-image").src = product.image || "https://placehold.co/200x250?text=No+Image+Found";
   instance.querySelector(".product-image").alt = product["Book Title"] || "Product Image";
   instance.querySelector(".product-name").textContent = product["Book Title"] || "No Name Available";
   instance.querySelector(".product-isbn").textContent = `ISBN-13: ${product["ISBN-13"] || "Not Available"}`;
@@ -259,7 +259,7 @@ resetFiltersBtn.addEventListener("click", () => {
   searchInput.value = "";
   categoryFilterSelect.value = "";
   itemsPerPageSelect.value = "10";
-  columnsPerRowSelect.value = "3";
+  columnsPerRowSelect.value = "4";
 
   itemsPerPage = 10;
   columnsPerRow = 3;

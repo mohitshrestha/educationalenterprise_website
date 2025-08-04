@@ -31,6 +31,14 @@ body {
     flex-wrap: wrap;
 }
 
+.search-bar-filter-container, .category-filter-container, .reset-filter-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
 #search-bar, .category-filter, #items-per-page, #columns-per-row {
     padding: 12px;
     font-size: 14px;
@@ -64,10 +72,10 @@ body {
 /* Product List Styles */
 .product-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Default: 3 columns */
     gap: 20px;
     padding: 20px;
     justify-items: center;
+    grid-template-columns: repeat(4, 1fr); /* Default: 4 columns for large screens */
 }
 
 /* Product Card Styles */
@@ -78,6 +86,8 @@ body {
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
+    max-width: 250px;
+    height: auto;
 }
 
 .product-card:hover {
@@ -86,8 +96,10 @@ body {
 
 .product-image {
     width: 100%;         /* Make image fill the card width */
-    height: 250px;       /* Fixed height for uniformity */
+    height: auto;       /* Make height auto */
+    max-height: 250px;  /* Fixed max-height for uniformity */
     object-fit: contain; /* Scale image maintaining aspect ratio without cropping */
+    object-position: center;
     display: block;      /* Remove any inline spacing */
     margin: 0 auto;      /* Center image horizontally if smaller */
 }

@@ -13,15 +13,44 @@ format:
 ```{=html}
 
 <!-- Top Filters: Search + Category -->
-<div class="filters-container">
-  <input type="text" id="search-bar" placeholder="Search by title, ISBN, or author..." />
-  <select class="category-filter">
-    <option value="">All categories</option>
-  </select>
-  <button id="reset-filters">Reset Filters</button>
+ <div class="top-filters-container">
+  <div class="search-bar-filter-container">
+    <input type="text" id="search-bar" placeholder="Search by title, ISBN, or author..." />
+  </div>
+
+  <div class="category-filter-container">
+    <select class="category-filter">
+      <option value="">All categories</option>
+    </select>
+  </div>
+
+  <!-- Bottom Filters -->
+  <div class="filters-container bottom-filters">
+      <select id="items-per-page">
+        <option value="5">5 items per page</option>
+        <option value="10" selected>10 items per page</option>
+        <option value="15">15 items per page</option>
+        <option value="20">20 items per page</option>
+        <option value="all">All items</option>
+      </select>
+
+      <select id="columns-per-row">
+        <option value="1">1 column view</option>
+        <option value="2">2 columns view</option>
+        <option value="3">3 columns view</option>
+        <option value="4" selected>4 columns view</option>
+      </select>
+
+      <button id="reset-filters">Reset Filters</button>
+
 </div>
+
+
 <!-- Result Summary -->
-<div id="result-summary"></div>
+<div class="result-summary-container">
+    <div id="result-summary"></div>
+</div>
+
 <!-- Loading Spinner -->
 <div id="loading-spinner" role="status" aria-label="Loading products..."></div>
 <!-- Product Grid -->
@@ -35,26 +64,11 @@ format:
   <button class="pagination-btn" id="last-page">Last</button>
   <!-- Go to page -->
   <div id="page-jump-container">
-    <label for="page-jump-input">Go to:</label>
-    <input type="number" id="page-jump-input" min="1" />
+    <label for="page-jump-input">Jump to page:</label>
+    <input type="number" id="page-jump-input" min="1" aria-label="Jump to page number">
   </div>
 </div>
-<!-- Bottom Filters -->
-<div class="filters-container bottom-filters">
-  <select id="items-per-page">
-    <option value="5">5 results per page</option>
-    <option value="10" selected>10 results per page</option>
-    <option value="15">15 results per page</option>
-    <option value="20">20 results per page</option>
-    <option value="all">Show all results</option>
-  </select>
-  <select id="columns-per-row">
-    <option value="1">1 column layout</option>
-    <option value="2">2 column layout</option>
-    <option value="3" selected>3 column layout</option>
-    <option value="4">4 column layout</option>
-  </select>
-</div>
+
 <!-- Template for Product Card -->
 <template id="product-template">
   <div class="product-card">
@@ -68,4 +82,3 @@ format:
 </template>
 
 ```
-
