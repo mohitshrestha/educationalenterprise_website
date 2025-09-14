@@ -16,16 +16,16 @@ meta:
 logo:
   images:
     icon:
-      path: "../../assets/media/images/logo/Educational-Enterprise-Logo_small.png"
+      path: "../../assets/media/images/logo/EE_Primary_logo_vertical.png"
       alt: "Educational Enterperise icon with abstract shapes"
     header:
-      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      path: "../../assets/media/images/logo/EE_Primary_logo_vertical.png"
       alt: "Educational Enterperise with logo"
     header-white:
-      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      path: "../../assets/media/images/logo/EE_Primary_logo_vertical.png"
       alt: "Educational Enterperise with logo in white"
     full:
-      path: "../../assets/media/images/logo/Educational-Enterprise-Logo.png"
+      path: "../../assets/media/images/logo/EE_Primary_logo_vertical.png"
       alt: "Full Educational Enterperise logo with tagline"
 
 # Define Logo images Attributes

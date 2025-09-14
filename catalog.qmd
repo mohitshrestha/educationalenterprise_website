@@ -5,6 +5,7 @@ toc: false
 page-layout: full
 format:
   html:
+    css: /assets/css/styles_books_catalog.css # a user-defined customization
     include-after-body:
       - text: |
           <script src="assets/scripts/books_catalog.js"></script>

@@ -6,12 +6,12 @@ website:
   title: "Educational Enterprise Pvt. Ltd."
   site-url: https://educationalenterprise.com.np
   google-analytics: "G-M0W0K6HDJX"
-  image: "/assets/media/images/logos/Educational-Enterprise-Logo.png"
-  favicon: "/assets/media/images/logos/Educational-Enterprise-Logo_small.png"
+  image: "/assets/media/images/logos/EE_Primary_logo_horizontal.png"
+  favicon: "/assets/media/images/logos/EE_logo_icon.png"
   twitter-card: true
   navbar:
     title: false
-    logo: "/assets/media/images/logos/Educational-Enterprise-Logo.png"
+    logo: "/assets/media/images/logos/EE_Primary_logo_horizontal.png"
     logo-alt: "Educational Enterprise Pvt. Ltd. Logo"
     foreground: "#3F88C5"
     background: "#FFF9EC"
