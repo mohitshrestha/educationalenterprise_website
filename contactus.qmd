@@ -14,6 +14,9 @@ about:
     - icon: instagram
       text: Instagram
       href: https://www.instagram.com/EducationalEnterprise/
+    - icon: tiktok
+      text: TikTok
+      href: https://www.tiktok.com/@educationalenterprise
     - icon: twitter-x
       text: X (Twitter)
       href: https://x.com/EduEntBooks/
@@ -36,7 +39,7 @@ about:
 
 <p style="text-align:center;">
 👉 **Follow. Discover. Engage.**  
-[Facebook](https://facebook.com/EducationalEnterprise) | [Instagram](https://instagram.com/EducationalEnterprise) | [LinkedIn](https://linkedin.com/company/EducationalEnterprise) | [X (Twitter)](https://x.com/EduEntBooks/)
+[Facebook](https://facebook.com/EducationalEnterprise) | [Instagram](https://instagram.com/EducationalEnterprise) | [TikTok](https://www.tiktok.com/@educationalenterprise) | [LinkedIn](https://linkedin.com/company/EducationalEnterprise) | [X (Twitter)](https://x.com/EduEntBooks/)
 </p>
 
 

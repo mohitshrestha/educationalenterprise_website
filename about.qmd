@@ -16,6 +16,9 @@ about:
     - icon: instagram
       text: Instagram
       href: https://www.instagram.com/EducationalEnterprise/
+    - icon: tiktok
+      text: TikTok
+      href: https://www.tiktok.com/@educationalenterprise
     - icon: twitter-x
       text: X (Twitter)
       href: https://x.com/EduEntBooks/
